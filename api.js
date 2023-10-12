@@ -1,5 +1,5 @@
 function loadData(){
-  fetch('https://openapi.programming-hero.com/api/phones?search=iphone&fbclid=IwAR3Hm5vHUp2yIQvqPBWdEf-I5UPT2W6B-z3B5ZQpubDTn_2wlLPy2eOEIwM/iPhone%2013%20mini')
+  fetch('https://openapi.programming-hero.com/api/phones?search=samsung')
   .then(Response=>Response.json())
   .then(data=>displaydata({data}))
 }
@@ -36,6 +36,7 @@ data.data.data.forEach(element => {
     
     `
     display.appendChild(div)
+    
   });
  }
 
@@ -45,6 +46,7 @@ loadData();
 
 
 function cart(){
+  
   const list=document.getElementById('list')
 
   const price=document.getElementById('price')
@@ -74,4 +76,10 @@ function cart(){
     </div>
    `
    list.appendChild(li)
+
+   window.scroll({
+    top: 100,
+    left: 100,
+    behavior: "smooth",
+  });
 }
