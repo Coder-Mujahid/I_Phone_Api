@@ -28,12 +28,6 @@ Check out the live demo [here](https://coder-mujahid.github.io/I_Phone_Api/)!
 3. Click on any iPhone model to view its detailed specifications and images.
 4. Enjoy exploring the world of iPhones!
 
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
-
 ## Feedback
 
 If you have any feedback or suggestions for improvement, feel free to [open an issue](https://github.com/Coder-Mujahid/I_Phone_Api/issues) or [submit a pull request](https://github.com/Coder-Mujahid/I_Phone_Api/pulls). Your input is highly appreciated!
